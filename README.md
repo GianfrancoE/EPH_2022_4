@@ -22,7 +22,7 @@ La sección final del código utiliza la técnica RFECV (Recursive Feature Elimi
 
 # Conclusiones del análisis
 
-*Distribución de ingresos por región*
+## Distribución de ingresos por región
 
 El gráfico de violín muestra la distribución del monto de ingreso ocupación principal en función de la región.  El logaritmo del ingreso graficado es más interesante para mostrar porque ayuda a visualizar mejor las diferencias entre las regiones en términos de magnitud relativa de los ingresos. Al aplicar el logaritmo, los valores extremadamente altos o bajos se atenuarían, lo que permitiría una mejor comparación entre las regiones. Además, al utilizar una escala logarítmica, se pueden apreciar mejor las variaciones en los ingresos en un rango más amplio, lo que puede revelar patrones o tendencias ocultas en los datos. Tanto para aplicar la escala logarítmica de los ingresos como para visualizar mejor los datos previo a eso, se quitaron todos los ingresos iguales a cero.
 
