@@ -4,8 +4,17 @@
 ### Problema
 El problema en este estudio de caso consiste en analizar y predecir los ingresos ocupacionales principales basados en diversas características demográficas y educativas. El conjunto de datos contiene información sobre los ingresos, edades, regiones, niveles educativos y otros factores de los individuos. El objetivo es comprender las relaciones entre estas variables, identificar características importantes para predecir los ingresos y desarrollar un modelo de regresión que pueda estimar con precisión los ingresos de las personas en función de sus características.
 
-### Resumen de las conclusiones y posibilidades
+### Resumen de las conclusiones
+El análisis reveló importantes conclusiones sobre los ingresos y su distribución. Los ingresos por región muestran diferencias significativas entre sí, reflejando las desigualdades en Argentina. El nivel educativo también es destacado como un factor clave, mostrando que la educación es un mecanismo para superar la pobreza.
+Las estadísticas de ingresos por región revelan variaciones significativas, con la Patagonia teniendo el ingreso promedio más alto y el Nordeste el más bajo. La desviación estándar también varía, reflejando la heterogeneidad dentro de cada región.
+Se utilizó un modelo de regresión Random Forest que obtuvo un alto coeficiente de determinación en el conjunto de entrenamiento, pero mostró un rendimiento deficiente en el conjunto de prueba debido al sobreajuste. El análisis de importancia destacó la influencia de la "Edad", "Nivel educativo más alto" y "Región" en la predicción de los ingresos.
 
+### Possibilidades de mejora en base a conclusiones
+El análisis revela que existen disparidades regionales significativas en los ingresos, lo cual puede abordarse mediante políticas que fomenten la competitividad y el desarrollo económico en las regiones rezagadas. Esto implica invertir en infraestructura, facilitar la inversión y promover la creación de empleo en áreas con menores ingresos.
+
+Además, se destaca la importancia del nivel educativo para los ingresos. Para promover la movilidad económica, es fundamental fomentar la educación de calidad y orientada hacia las necesidades del mercado laboral. Esto puede lograrse mediante asociaciones público-privadas, programas de capacitación profesional y políticas que incentiven la participación del sector empresarial en la educación.
+
+El análisis también resalta la desigualdad en la distribución de ingresos incluso en zonas con altos niveles de empleo público. Esto indica que en lugar de políticas de redistribución forzada, se puede optar por un enfoque que estimule la creación de oportunidades y el emprendimiento. Esto implica reducir la carga impositiva a las empresas y promover políticas que faciliten la creación de empleo y el crecimiento económico sostenible.
 
 # Presentación y uso del código 1ra parte: Análisis de datos
 Con el código creado, se hace un análisis de datos realizado en un entorno de Colaboratory de Google. Comienza importando las bibliotecas necesarias, como pandas, numpy, matplotlib.pyplot, entre otros que son utilizadas para el análisis y visualización de datos.
