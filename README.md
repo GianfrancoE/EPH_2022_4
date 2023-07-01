@@ -80,6 +80,9 @@ Los resultados muestran que se utilizaron 1,566 datos para el entrenamiento y 14
 
 El gráfico de barras de importancia de variables muestra la contribución relativa de cada característica en la predicción del ingreso. Se observa que las variables "Edad" y "Nivel_más_alto_de_educación" tienen una mayor importancia en el modelo.
 
+![image](https://github.com/GianfrancoE/EPH_2022_4/assets/137568096/41de67ba-f270-4858-b494-0ad8345ff66c)
+
+
 Esta diferencia sugiere que el modelo presenta un caso de overfitting. El coeficiente de determinación alto en el conjunto de entrenamiento indica que el modelo se ajusta muy bien a los datos de entrenamiento, pero su rendimiento se reduce significativamente cuando se evalúa en datos no vistos (conjunto de prueba). El bajo coeficiente de determinación en el conjunto de prueba indica que el modelo no generaliza bien y tiene dificultades para hacer predicciones precisas en nuevos datos. Para corregir el overfitting, se pueden considerar técnicas como la regularización, la reducción de características o el ajuste de los hiperparámetros del modelo.
 
 
