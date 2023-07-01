@@ -1,9 +1,5 @@
 **Para ver el código entren a "Análisis_de_datos.ipynb" y abran el collab.También van a necesitar el archivo que dice "usu_individual_T422.csv". Súbanlo al content y todo debería funcionar si se corren las cosas en orden.**
 
-# EPH_2022_4
-Análisis de datos encuesta permanente de hogares 2022 último Q
-
-
 # Presentación y uso del código 1ra parte: Análisis de datos
 Con el código creado, se hace un análisis de datos realizado en un entorno de Colaboratory de Google. Comienza importando las bibliotecas necesarias, como pandas, numpy, matplotlib.pyplot, entre otros que son utilizadas para el análisis y visualización de datos.
 
