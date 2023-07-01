@@ -1,5 +1,8 @@
 **Para ver el código entren a "Análisis_de_datos.ipynb" y abran el collab.También van a necesitar el archivo que dice "usu_individual_T422.csv". Súbanlo al content y todo debería funcionar si se corren las cosas en orden.**
 
+# Presentación
+El problema en este estudio de caso consiste en analizar y predecir los ingresos ocupacionales principales basados en diversas características demográficas y educativas. El conjunto de datos contiene información sobre los ingresos, edades, regiones, niveles educativos y otros factores de los individuos. El objetivo es comprender las relaciones entre estas variables, identificar características importantes para predecir los ingresos y desarrollar un modelo de regresión que pueda estimar con precisión los ingresos de las personas en función de sus características.
+
 # Presentación y uso del código 1ra parte: Análisis de datos
 Con el código creado, se hace un análisis de datos realizado en un entorno de Colaboratory de Google. Comienza importando las bibliotecas necesarias, como pandas, numpy, matplotlib.pyplot, entre otros que son utilizadas para el análisis y visualización de datos.
 
