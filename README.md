@@ -29,6 +29,33 @@ El gráfico de violín muestra la distribución del monto de ingreso ocupación 
 ![image](https://github.com/GianfrancoE/EPH_2022_4/assets/137568096/01b11afc-43b7-4140-831a-6f1f406322e7)
 ![image](https://github.com/GianfrancoE/EPH_2022_4/assets/137568096/3d44e717-837c-46fb-bb8b-157d8e36ae85)
 
+## Test de normalidad del logaritmo del ingreso
+
+Se realizó un test de normalidad en la columna "Log_Monto" del conjunto de datos utilizando el código proporcionado. El objetivo era determinar si la distribución de los datos seguía una distribución normal. Este test es estadísticamente relevante para verificar los supuestos de normalidad en diversos métodos y modelos estadísticos. El resultado del test mostró un estadístico de prueba de 1311.97 y un valor p extremadamente pequeño (1.2860113698269532e-285), lo que indica que los datos no seguían una distribución normal. El test realizado fue el de Shapiro-Wilk.
+
+## Ingresos por región: Estadísticos
+Se calculó el ingreso promedio y la desviación estándar del ingreso por región utilizando el dataframe "df". Los resultados se imprimieron en pantalla.
+
+Los resultados muestran que el ingreso promedio por región varía significativamente. En la región de Patagonia, el ingreso promedio es de $126,886.70, seguida por Gran Buenos Aires con $107,105.39 y Pampeana con $89,563.84. Nordeste tiene el ingreso promedio más bajo con $67,647.38.
+
+La desviación estándar del ingreso también presenta diferencias por región. Patagonia tiene la mayor variabilidad en los ingresos con una desviación estándar de $127,199.77, mientras que Nordeste tiene la menor variabilidad con $50,213.70. Esto indica que en Patagonia hay una mayor dispersión de los ingresos, posiblemente debido a diferencias económicas y laborales en esa región.
+
+La desviación estándar total del conjunto de datos es de $78,232.36, lo que refleja la variabilidad general de los ingresos en todas las regiones consideradas.
+
+## Test de significancia
+Se realizó la prueba t independiente para comparar los ingresos de cada región con los ingresos de todas las demás regiones. Esto es estadísticamente relevante para determinar si existían diferencias significativas en los ingresos entre las regiones. Se utilizó el test t de Student para comparar las medias de dos grupos.
+
+Los resultados de las pruebas t mostraron que todas las regiones tenían valores p muy bajos, lo que indicaba que había diferencias estadísticamente significativas en los ingresos entre las regiones. Esto implicaba que los ingresos variaban de manera considerable entre las diferentes regiones. Por ejemplo, la región de Patagonia tuvo un valor p extremadamente bajo, lo que sugirió que los ingresos en esta región diferían significativamente de los ingresos en las demás regiones.
+
+
+## Ingreso medio por edad
+
+Se realizó el cálculo de la media de ingresos por edad y se generó un dotplot para visualizar los resultados. Esto es estadísticamente importante para comprender la relación entre la edad y los ingresos.
+
+El dotplot mostró que el ingreso promedio era menor a 50mil pesos en las edades más jóvenes (menores a 25 años), y luego aumentaba gradualmente hasta alcanzar una media de entre 90 a 120 mil pesos en el rango de edad de 50 a 60 años. Posteriormente, se observó un descenso en la media de ingresos, aunque con mayor variabilidad de resultados debido a la menor cantidad de personas de edad avanzada en la base de datos.
+
+![image](https://github.com/GianfrancoE/EPH_2022_4/assets/137568096/67a16bbe-57c7-4c6d-a678-bcbc855dcd3f)
+
 
 
 
